@@ -1,0 +1,17 @@
+Choose a number: 5
+5
+4
+3
+2
+1
+Blastoff!
+
+Choose a number: -4
+-4
+-3
+-2
+-1
+Blastoff!
+
+Choose a number: 0
+Blastoff!

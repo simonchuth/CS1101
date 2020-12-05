@@ -1,0 +1,29 @@
+Current recurssion depth: 1
+Current recurssion depth: 2
+Current recurssion depth: 3
+Current recurssion depth: 4
+Current recurssion depth: 5
+Current recurssion depth: 6
+Current recurssion depth: 7
+Current recurssion depth: 8
+Current recurssion depth: 9
+Current recurssion depth: 10
+Current recurssion depth: 11
+Current recurssion depth: 12
+Current recurssion depth: 13
+.......
+Current recurssion depth: 990
+Current recurssion depth: 991
+Current recurssion depth: 992
+Current recurssion depth: 993
+Current recurssion depth: 994
+Current recurssion depth: 995
+Current recurssion depth: 996
+Current recurssion depth: 997
+Current recurssion depth: 998
+Traceback (most recent call last):
+  File "learning_journal_2.py", line 11, in <module>
+    repeat_myself(1)
+  File "learning_journal_2.py", line 2, in repeat_myself
+    print('Current recurssion depth: {}'.format(n))
+RuntimeError: maximum recursion depth exceeded while getting the str of an object
